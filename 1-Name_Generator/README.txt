@@ -1,3 +1,6 @@
-#Lesson 1 - Silly Name Generator based on Psych TV Show. 
+# Lesson 1 -  Randomized Name Generator 
 
-#Python PEP 8 and PEP 257 style guides. Pylint and Pydocstyle also used
+Lessons:
+Python PEP 8 and PEP 257 style guides. Pylint and Pydocstyle will also be used
+Going to expand on the lesson and add in conditionals when generating a name
+
