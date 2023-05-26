@@ -1,6 +1,7 @@
 #Lesson focusing on the identification of Palidromes through use of dictionaries
 
-#Will be using the 
+#Will be using a wordlist downloaded from the internet (link will be entered here). Built-in Kali rockyou.txt wordlist had some
+#non-UTF-8 words that made processing difficult 
 
 
 
@@ -31,7 +32,7 @@ loaded_txt = load('/home/jjaram/Downloads/12dicts-6.0.2/American/2of12.txt')
 
 
 
-##---- Determining all words that are a palindrome
+##---- Determining single words that are a palindrome
 #for-loop attempt
 """
 palindrome_list = []
@@ -65,8 +66,6 @@ print("There are " + str(len(palindrome_list)) + " words that are valid palindro
 #and determine which create palindromes
 
 
-
-
 #Pseudo code:
     #Ignore anything that's 1 letter 
     #Create word pairs (40k+ words in 2of12.txt file). Would need to be in boths order combinations (A+B & B+A)
@@ -95,4 +94,5 @@ print(len(word_combos))
 endTime = time.time()
 print(endTime - startTime)
 
-
+#This is currently very computationally demanding, and not elegant code. Going to read more into palidromic theory to identify a faster
+#method of processing. Will likely also deviate from the word_combo logic as this is causing the greatest demand
